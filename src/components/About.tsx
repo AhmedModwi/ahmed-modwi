@@ -33,9 +33,14 @@ const About = () => {
               className="relative"
             >
               <div className="glass p-8 rounded-3xl glass-hover">
-                <div className="w-80 h-80 mx-auto relative rounded-2xl overflow-hidden bg-gradient-to-br from-blue-500/20 to-purple-600/20 flex items-center justify-center">
-                  {/* Placeholder for profile image */}
-                  <div className="text-6xl text-blue-400">👨‍💻</div>
+                <div className="w-80 h-80 mx-auto relative rounded-full overflow-hidden border-4 border-blue-400/30 shadow-lg shadow-blue-400/20">
+                  <Image
+                    src="https://i.postimg.cc/Gt53fc53/Gemini-Generated-Image-ronjcwronjcwronj.png"
+                    alt="Ahmed Modwi"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
                 </div>
               </div>
             </motion.div>
@@ -48,26 +53,31 @@ const About = () => {
               className="space-y-6"
             >
               <div className="glass p-8 rounded-3xl glass-hover">
-                <h3 className="text-2xl font-semibold mb-4 text-blue-400">Who I Am</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-blue-400">The Journey Begins</h3>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  I&apos;m a passionate full-stack developer with over 5 years of experience creating 
-                  digital solutions that combine beautiful design with powerful functionality. 
-                  I specialize in modern web technologies and have a keen eye for user experience.
+                  I&apos;m Ahmed Modwi, a Sudanese engineer living in the UAE with a unique mission: 
+                  to master the art of sales in real estate and automotive sectors — not just to sell, 
+                  but to understand the data that drives every decision.
                 </p>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to 
-                  open-source projects, or sharing knowledge with the developer community. 
-                  I believe in continuous learning and staying at the forefront of innovation.
+                  Why sales first? Because before building intelligent systems, I need to feel 
+                  the pulse of the market. Every client conversation, every negotiation, every deal 
+                  teaches me what no algorithm can: human behavior in high-stakes decisions.
+                </p>
+                <p className="text-gray-300 leading-relaxed mb-6">
+                  My background spans civil engineering, web development, and client services. 
+                  Now I&apos;m channeling that analytical mindset into sales — learning from the ground up 
+                  to build the next generation of data-driven sales systems.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 mt-8">
                   <div className="glass p-4 rounded-xl">
-                    <div className="text-2xl font-bold text-blue-400">50+</div>
-                    <div className="text-sm text-gray-400">Projects Completed</div>
+                    <div className="text-2xl font-bold text-blue-400">2-3</div>
+                    <div className="text-sm text-gray-400">Years Sales Focus</div>
                   </div>
                   <div className="glass p-4 rounded-xl">
-                    <div className="text-2xl font-bold text-blue-400">5+</div>
-                    <div className="text-sm text-gray-400">Years Experience</div>
+                    <div className="text-2xl font-bold text-blue-400">∞</div>
+                    <div className="text-sm text-gray-400">Systems to Build</div>
                   </div>
                 </div>
               </div>

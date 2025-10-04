@@ -22,8 +22,9 @@ const Navigation = () => {
   const navItems = [
     { name: 'Home', id: 'hero' },
     { name: 'About', id: 'about' },
-    { name: 'Experience', id: 'experience' },
-    { name: 'Projects', id: 'projects' },
+    { name: 'Journey', id: 'experience' },
+    { name: 'Skills', id: 'skills' },
+    { name: 'Vision', id: 'vision' },
     { name: 'Contact', id: 'contact' },
   ]
 
@@ -44,9 +45,7 @@ const Navigation = () => {
             className="text-2xl font-bold text-white"
           >
             Ahmed Modwi
-          </motion.div>
-          
-          <div className="hidden md:flex space-x-8">
+          </motion.div>          <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <motion.button
                 key={item.id}

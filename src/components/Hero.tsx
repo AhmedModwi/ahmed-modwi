@@ -2,8 +2,15 @@
 
 import { motion } from 'framer-motion'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
+import { useEffect, useState } from 'react'
 
 const Hero = () => {
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
   const scrollToAbout = () => {
     const element = document.getElementById('about')
     element?.scrollIntoView({ behavior: 'smooth' })
@@ -13,13 +20,13 @@ const Hero = () => {
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated background particles */}
       <div className="absolute inset-0">
-        {[...Array(50)].map((_, i) => (
+        {mounted && [...Array(50)].map((_, i) => (
           <motion.div
             key={i}
             className="absolute w-1 h-1 bg-blue-400/30 rounded-full"
             initial={{
-              x: Math.random() * window?.innerWidth || 0,
-              y: Math.random() * window?.innerHeight || 0,
+              x: Math.random() * window.innerWidth,
+              y: Math.random() * window.innerHeight,
             }}
             animate={{
               y: [0, -30, 0],
@@ -57,7 +64,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-2xl md:text-3xl text-gray-300 mb-4"
           >
-            Full-Stack Developer & UI/UX Designer
+            The Salesman Who Builds Systems
           </motion.p>
           
           <motion.p
@@ -66,8 +73,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto"
           >
-            Creating digital experiences that bridge innovation and elegance. 
-            Passionate about crafting beautiful, functional solutions that make a difference.
+            Learning the real market from the ground up — to build the systems that shape it. 
+            From client conversations to machine learning models.
           </motion.p>
           
           <motion.div
@@ -81,7 +88,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="glow-button px-8 py-4 rounded-full text-white font-medium text-lg"
             >
-              Download Resume
+              View My CV
             </motion.button>
             
             <motion.button
@@ -90,7 +97,7 @@ const Hero = () => {
               onClick={scrollToAbout}
               className="glass px-8 py-4 rounded-full text-white font-medium text-lg glass-hover"
             >
-              View My Work
+              Contact Me
             </motion.button>
           </motion.div>
         </motion.div>

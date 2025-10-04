@@ -6,31 +6,31 @@ const Experience = () => {
   const experiences = [
     {
       year: '2023 - Present',
-      title: 'Senior Full-Stack Developer',
-      company: 'Tech Innovation Inc.',
-      description: 'Leading development of scalable web applications using Next.js, React, and Node.js. Mentoring junior developers and implementing best practices.',
-      technologies: ['Next.js', 'TypeScript', 'Node.js', 'PostgreSQL']
+      title: 'Client Services & Market Research Specialist',
+      company: 'Real Estate & Automotive Sectors, UAE',
+      description: 'Engaging directly with clients in real estate and automotive sales. Conducting field research, analyzing customer needs, and building relationships that drive results.',
+      technologies: ['Client Consultation', 'Market Analysis', 'VoIP Systems', 'Customer Relations']
     },
     {
-      year: '2021 - 2023',
-      title: 'Full-Stack Developer',
-      company: 'Digital Solutions Ltd.',
-      description: 'Developed and maintained multiple client projects, focusing on modern web technologies and responsive design principles.',
-      technologies: ['React', 'Python', 'Django', 'AWS']
+      year: '2021 - 2022',
+      title: 'Freelance Web Developer & Consultant',
+      company: 'Remote',
+      description: 'Delivered full-cycle web development projects while consulting clients on digital presence and customer engagement strategies.',
+      technologies: ['Web Development', 'Digital Marketing', 'Client Consultation', 'User Experience']
     },
     {
-      year: '2020 - 2021',
-      title: 'Frontend Developer',
-      company: 'Creative Agency Co.',
-      description: 'Created stunning user interfaces and improved user experience for various client websites and applications.',
-      technologies: ['JavaScript', 'Vue.js', 'SCSS', 'Figma']
+      year: '2020',
+      title: 'Construction Operations Support',
+      company: 'Local Construction Company, Khartoum',
+      description: 'Supported site operations, coordinated tasks, and managed documentation to ensure efficiency and compliance in construction projects.',
+      technologies: ['Project Coordination', 'Documentation', 'Team Management', 'Operations']
     },
     {
-      year: '2019 - 2020',
-      title: 'Junior Web Developer',
-      company: 'StartUp Ventures',
-      description: 'Started my professional journey building responsive websites and learning modern development practices.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'PHP']
+      year: '2016 - 2020',
+      title: 'Digital Marketing & Brand Promotion Specialist',
+      company: 'Khartoum',
+      description: 'Promoted various brands through online campaigns, conducted market research, and built customer-focused insights for premium brands.',
+      technologies: ['Digital Marketing', 'Brand Promotion', 'Market Research', 'Campaign Management']
     }
   ]
 

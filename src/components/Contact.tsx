@@ -75,9 +75,11 @@ const Contact = () => {
               className="space-y-8"
             >
               <div className="glass p-8 rounded-3xl">
-                <h3 className="text-2xl font-semibold mb-6 text-blue-400">Let's Collaborate</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-blue-400">Let&apos;s Build Together</h3>
                 <p className="text-gray-300 leading-relaxed mb-8">
-                  I&apos;m always interested in new opportunities, interesting projects, and great people to work with. 
+                  Ready to connect? Whether you&apos;re looking for a driven sales professional who thinks 
+                  in systems, or you want to discuss the future of data-driven customer relationships, 
+                  let&apos;s build the next chapter together. 
                   Whether you have a project in mind or just want to connect, I&apos;d love to hear from you!
                 </p>
                 
