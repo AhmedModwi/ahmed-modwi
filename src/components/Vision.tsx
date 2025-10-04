@@ -40,9 +40,9 @@ const Vision = () => {
               viewport={{ once: true }}
               className="text-2xl md:text-3xl text-gray-200 italic leading-relaxed mb-8"
             >
-              "For the next few years, I'll learn from the field — every client, every deal. 
-              Later, I'll turn those lessons into machine learning models that make selling 
-              smarter and more human."
+              &ldquo;For the next few years, I&apos;ll learn from the field — every client, every deal. 
+              Later, I&apos;ll turn those lessons into machine learning models that make selling 
+              smarter and more human.&rdquo;
             </motion.blockquote>
             
             <motion.div
@@ -56,12 +56,12 @@ const Vision = () => {
                 The Philosophy
               </div>
               <p className="text-gray-300 leading-relaxed mb-6">
-                Real estate and automotive sales aren't just about transactions — they're about 
+                Real estate and automotive sales aren&apos;t just about transactions — they&apos;re about 
                 understanding human psychology at decision points worth thousands of dollars. 
                 This is where data meets emotion, where algorithms must learn empathy.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                I'm not just building a career in sales. I'm conducting field research 
+                I&apos;m not just building a career in sales. I&apos;m conducting field research 
                 for the next generation of intelligent systems.
               </p>
             </motion.div>
