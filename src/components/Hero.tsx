@@ -58,23 +58,21 @@ const Hero = () => {
             Ahmed Modwi
           </motion.h1>
           
-          <motion.p
+            <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-2xl md:text-3xl text-gray-300 mb-4"
           >
-            The Salesman Who Builds Systems
-          </motion.p>
-          
-          <motion.p
+            Sales & Customer Experience Professional
+          </motion.p>          <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto"
           >
-            Learning the real market from the ground up — to build the systems that shape it. 
-            From client conversations to machine learning models.
+            Passionate about building relationships, understanding client needs, and delivering 
+            solutions that enhance satisfaction and trust. Based in Dubai, UAE.
           </motion.p>
           
           <motion.div
@@ -83,13 +81,16 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <motion.button
+            <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="glow-button px-8 py-4 rounded-full text-white font-medium text-lg"
+              href="https://drive.google.com/file/d/1m1H3ecVT43GVN3NNqfrlKTW11ytp3FMc/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glow-button px-8 py-4 rounded-full text-white font-medium text-lg inline-block text-center"
             >
-              View My CV
-            </motion.button>
+              Download CV
+            </motion.a>
             
             <motion.button
               whileHover={{ scale: 1.05 }}

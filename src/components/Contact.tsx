@@ -25,19 +25,19 @@ const Contact = () => {
 
   const socialLinks = [
     {
-      name: 'GitHub',
-      url: 'https://github.com/ahmed',
-      icon: '🐙'
+      name: 'Phone',
+      url: 'tel:+971501306311',
+      icon: '�'
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/ahmed',
+      url: 'https://linkedin.com/in/ahmed-modwi',
       icon: '💼'
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/ahmed',
-      icon: '🐦'
+      name: 'CV Website',
+      url: 'https://ahmed-modwi-cv.vercel.app/',
+      icon: '�'
     },
     {
       name: 'Email',

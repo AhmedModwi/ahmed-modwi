@@ -55,29 +55,31 @@ const About = () => {
               <div className="glass p-8 rounded-3xl glass-hover">
                 <h3 className="text-2xl font-semibold mb-4 text-blue-400">The Journey Begins</h3>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  I&apos;m Ahmed Modwi, a Sudanese engineer living in the UAE with a unique mission: 
-                  to master the art of sales in real estate and automotive sectors — not just to sell, 
-                  but to understand the data that drives every decision.
+                  I&apos;m Ahmed Modwi Ibrahim, a passionate sales and customer experience professional 
+                  living in Dubai, UAE. With hands-on experience in fashion retail, digital marketing, 
+                  and client services, I specialize in building relationships and delivering solutions 
+                  that enhance satisfaction and trust.
                 </p>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  Why sales first? Because before building intelligent systems, I need to feel 
-                  the pulse of the market. Every client conversation, every negotiation, every deal 
-                  teaches me what no algorithm can: human behavior in high-stakes decisions.
+                  My unique background combines a Civil Engineering degree from University of Khartoum 
+                  with diverse experience across customer engagement, field research, web development, 
+                  and brand promotion. I thrive in dynamic, fast-paced environments where I can blend 
+                  analytical thinking with human-centered solutions.
                 </p>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  My background spans civil engineering, web development, and client services. 
-                  Now I&apos;m channeling that analytical mindset into sales — learning from the ground up 
-                  to build the next generation of data-driven sales systems.
+                  Currently focused on mastering consultative sales and customer experience, 
+                  I&apos;m building expertise that will later inform intelligent systems for 
+                  data-driven customer relationships and sales optimization.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 mt-8">
                   <div className="glass p-4 rounded-xl">
-                    <div className="text-2xl font-bold text-blue-400">2-3</div>
-                    <div className="text-sm text-gray-400">Years Sales Focus</div>
+                    <div className="text-2xl font-bold text-blue-400">8+</div>
+                    <div className="text-sm text-gray-400">Years Experience</div>
                   </div>
                   <div className="glass p-4 rounded-xl">
-                    <div className="text-2xl font-bold text-blue-400">∞</div>
-                    <div className="text-sm text-gray-400">Systems to Build</div>
+                    <div className="text-2xl font-bold text-blue-400">2</div>
+                    <div className="text-sm text-gray-400">Languages Fluent</div>
                   </div>
                 </div>
               </div>

@@ -5,32 +5,39 @@ import { motion } from 'framer-motion'
 const Experience = () => {
   const experiences = [
     {
-      year: '2023 - Present',
-      title: 'Client Services & Market Research Specialist',
-      company: 'Real Estate & Automotive Sectors, UAE',
-      description: 'Engaging directly with clients in real estate and automotive sales. Conducting field research, analyzing customer needs, and building relationships that drive results.',
-      technologies: ['Client Consultation', 'Market Analysis', 'VoIP Systems', 'Customer Relations']
+      year: '2023 - 2025',
+      title: 'Customer Experience & Field Research Specialist',
+      company: 'UAE',
+      description: 'Conducted on-site research at various businesses, gathering insights on customer experience and service quality. Engaged with clients directly to collect feedback and provide guidance on company services.',
+      technologies: ['Field Research', 'Customer Experience', 'VoIP Systems', 'Data Collection', 'Client Feedback']
+    },
+    {
+      year: '2022 - 2023',
+      title: 'Travel & Tourism Agency Assistant',
+      company: 'Assari Travel & Tourism, Ethiopia',
+      description: 'Assisted clients with travel arrangements, bookings, and government documentation for visas. Developed consultative service and client relationship skills in a fast-paced environment.',
+      technologies: ['Client Relations', 'Travel Coordination', 'Documentation', 'Consultative Service']
     },
     {
       year: '2021 - 2022',
       title: 'Freelance Web Developer & Consultant',
       company: 'Remote',
-      description: 'Delivered full-cycle web development projects while consulting clients on digital presence and customer engagement strategies.',
-      technologies: ['Web Development', 'Digital Marketing', 'Client Consultation', 'User Experience']
+      description: 'Delivered website projects for small businesses, including design, development, and deployment. Advised clients on digital presence, marketing strategies, and customer engagement improvements.',
+      technologies: ['Web Development', 'Digital Marketing', 'Client Consultation', 'Business Strategy']
     },
     {
       year: '2020',
       title: 'Construction Operations Support',
-      company: 'Local Construction Company, Khartoum',
-      description: 'Supported site operations, coordinated tasks, and managed documentation to ensure efficiency and compliance in construction projects.',
-      technologies: ['Project Coordination', 'Documentation', 'Team Management', 'Operations']
+      company: 'Khartoum, Sudan',
+      description: 'Assisted engineers and supervisors with daily site inspections and coordination of worker tasks. Maintained reports and documentation to track project progress and resources.',
+      technologies: ['Project Coordination', 'Site Inspection', 'Documentation', 'Team Management']
     },
     {
       year: '2016 - 2020',
-      title: 'Digital Marketing & Brand Promotion Specialist',
-      company: 'Khartoum',
-      description: 'Promoted various brands through online campaigns, conducted market research, and built customer-focused insights for premium brands.',
-      technologies: ['Digital Marketing', 'Brand Promotion', 'Market Research', 'Campaign Management']
+      title: 'Digital Marketing & Brand Promotion',
+      company: 'Khartoum, Sudan (Freelance)',
+      description: 'Managed online campaigns and promotions for multiple local merchants selling premium sportswear and fashion brands (Adidas, Nike, Boss). Conducted market research and competitor analysis.',
+      technologies: ['Digital Marketing', 'Brand Promotion', 'Social Media', 'Market Research', 'Campaign Management']
     }
   ]
 

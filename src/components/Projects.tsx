@@ -5,51 +5,51 @@ import { motion } from 'framer-motion'
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Sales & Communication',
+      title: 'Customer Experience & Sales',
       icon: '🤝',
       skills: [
-        'Consultative Selling',
-        'Client Relationship Management', 
-        'Negotiation & Closing',
-        'Market Research & Analysis',
-        'Customer Needs Assessment',
-        'Application & Documentation Assistance'
+        'Customer Engagement & Consultative Interaction',
+        'Client Relationship Management',
+        'Consultative Service & Needs Assessment',
+        'Training & Mentoring',
+        'Communication & Service Excellence',
+        'Problem Solving & Operational Coordination'
       ]
     },
     {
-      title: 'Data & Systems',
-      icon: '⚡',
+      title: 'Marketing & Brand Management',
+      icon: '📈',
       skills: [
-        'Python Programming',
-        'Web Development (Next.js, React)',
-        'Data Analytics & Visualization',
-        'Machine Learning Foundations',
-        'Database Management',
-        'System Architecture Design'
+        'Digital Marketing & Online Campaigns',
+        'Brand Promotion & Visual Merchandising',
+        'Market Research & Field Data Collection',
+        'Social Media Campaign Management',
+        'Competitor Analysis & Strategy',
+        'Customer Engagement Strategies'
       ]
     },
     {
-      title: 'Industry Knowledge',
-      icon: '🏢',
+      title: 'Technical & Development',
+      icon: '💻',
       skills: [
-        'Real Estate Market Dynamics',
-        'Automotive Sales Processes',
-        'Construction Operations',
-        'Financial Product Consultation',
-        'Telecommunications Systems',
-        'Digital Marketing Strategies'
+        'Web Development & Design',
+        'VoIP & Service Management Systems',
+        'Inventory & Product Knowledge Management',
+        'Digital Presence Consulting',
+        'Website Deployment & Maintenance',
+        'Technical Problem Solving'
       ]
     },
     {
-      title: 'Tools & Technologies',
-      icon: '🛠️',
+      title: 'Operations & Coordination',
+      icon: '�',
       skills: [
-        'Obsidian (Knowledge Management)',
-        'Google Workspace',
-        'VoIP Communication Systems',
-        'CRM Platforms',
-        'Project Management Tools',
-        'Data Visualization Tools'
+        'Project Management & Coordination',
+        'Site Inspections & Documentation',
+        'Travel Arrangements & Visa Processing',
+        'Government Documentation Support',
+        'Process Optimization',
+        'Quality Assurance & Reporting'
       ]
     }
   ]
