@@ -48,7 +48,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-blue-200 to-blue-400 bg-clip-text text-transparent"
           >
-            Ahmed Hassan
+            Ahmed Modwi
           </motion.h1>
           
           <motion.p

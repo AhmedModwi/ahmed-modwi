@@ -18,7 +18,7 @@ const Footer = () => {
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold text-white mb-4"
             >
-              Ahmed Hassan
+              Ahmed Modwi
             </motion.div>
             <p className="text-gray-400 mb-6">
               Crafting digital experiences with passion and precision
@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="flex justify-center space-x-6 mb-6">
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
-                href="mailto:ahmed@example.com"
+                href="mailto:ahmedmodwi@outlook.com"
                 className="text-blue-400 hover:text-blue-300 transition-colors"
               >
                 📧
@@ -51,7 +51,7 @@ const Footer = () => {
               </motion.a>
             </div>
             <div className="text-sm text-gray-500">
-              © 2024 Ahmed Hassan. All rights reserved.
+              © 2024 Ahmed Modwi. All rights reserved.
             </div>
           </div>
         </motion.div>

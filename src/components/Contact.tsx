@@ -41,7 +41,7 @@ const Contact = () => {
     },
     {
       name: 'Email',
-      url: 'mailto:ahmed@example.com',
+      url: 'mailto:ahmedmodwi@outlook.com',
       icon: '📧'
     }
   ]

@@ -43,7 +43,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold text-white"
           >
-            Ahmed
+            Ahmed Modwi
           </motion.div>
           
           <div className="hidden md:flex space-x-8">
