@@ -84,12 +84,23 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/1m1H3ecVT43GVN3NNqfrlKTW11ytp3FMc/view?usp=sharing"
+              href="https://ahmed-modwi-cv.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="glow-button px-8 py-4 rounded-full text-white font-medium text-lg inline-block text-center"
             >
-              Download CV
+              View CV Online
+            </motion.a>
+            
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              href="https://drive.google.com/file/d/1m1H3ecVT43GVN3NNqfrlKTW11ytp3FMc/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glass px-8 py-4 rounded-full text-white font-medium text-lg glass-hover inline-block text-center"
+            >
+              Download PDF
             </motion.a>
             
             <motion.button
