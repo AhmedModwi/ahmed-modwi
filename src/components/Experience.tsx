@@ -77,7 +77,11 @@ const Experience = () => {
                 {/* Timeline dot */}
                 <div className="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-black z-10"></div>
                 
-                <div className={`glass p-8 rounded-3xl glass-hover ${index % 2 === 0 ? 'md:ml-8' : 'md:mr-8'}`}>
+                <motion.div 
+                  whileHover={{ opacity: 0.95, scale: 1.02 }}
+                  transition={{ duration: 0.2 }}
+                  className={`glass p-8 rounded-3xl glass-hover ${index % 2 === 0 ? 'md:ml-8' : 'md:mr-8'}`}
+                >
                   <div className="text-blue-400 font-semibold mb-2">{exp.year}</div>
                   <h3 className="text-2xl font-bold text-white mb-2">{exp.title}</h3>
                   <div className="text-lg text-gray-300 mb-4">{exp.company}</div>
@@ -93,7 +97,7 @@ const Experience = () => {
                       </span>
                     ))}
                   </div>
-                </div>
+                </motion.div>
               </motion.div>
             ))}
           </div>

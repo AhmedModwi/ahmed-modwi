@@ -8,24 +8,24 @@ const Skills = () => {
       title: 'Customer Experience & Sales',
       icon: '🤝',
       skills: [
-        'Customer Engagement & Consultative Interaction',
-        'Client Relationship Management',
-        'Consultative Service & Needs Assessment',
-        'Training & Mentoring',
-        'Communication & Service Excellence',
-        'Problem Solving & Operational Coordination'
+        'Consultative Selling & Client Needs Assessment',
+        'Negotiation & Deal Facilitation',
+        'Client Communication (VoIP / Messaging / In-person)',
+        'Customer Engagement & Experience Management',
+        'CRM & Lead Follow-up Practices',
+        'Operational Coordination & Documentation'
       ]
     },
     {
-      title: 'Marketing & Brand Management',
+      title: 'Marketing & Business Development',
       icon: '📈',
       skills: [
-        'Digital Marketing & Online Campaigns',
-        'Brand Promotion & Visual Merchandising',
-        'Market Research & Field Data Collection',
-        'Social Media Campaign Management',
-        'Competitor Analysis & Strategy',
-        'Customer Engagement Strategies'
+        'Market Research & Competitive Pricing',
+        'Digital Listing & Marketing Support',
+        'Brand Promotion & Campaign Management',
+        'Field Research & Data Collection',
+        'Customer Experience Analysis',
+        'Business Strategy Consultation'
       ]
     },
     {

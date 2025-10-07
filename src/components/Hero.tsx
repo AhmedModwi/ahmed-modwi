@@ -8,7 +8,10 @@ const Hero = () => {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true)
+    // Ensure we're on the client side
+    if (typeof window !== 'undefined') {
+      setMounted(true)
+    }
   }, [])
 
   const scrollToAbout = () => {
@@ -20,26 +23,32 @@ const Hero = () => {
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated background particles */}
       <div className="absolute inset-0">
-        {mounted && [...Array(50)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute w-1 h-1 bg-blue-400/30 rounded-full"
-            initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
-            }}
-            animate={{
-              y: [0, -30, 0],
-            }}
-            transition={
-              {
-                duration: 3 + Math.random() * 2,
+        {mounted && [...Array(50)].map((_, i) => {
+          // Generate consistent positions based on index to avoid hydration mismatch
+          const seedX = (i * 37) % 100 // Pseudo-random based on index
+          const seedY = (i * 73) % 100 // Pseudo-random based on index
+          const seedDuration = 3 + (i % 3) // Consistent duration based on index
+          
+          return (
+            <motion.div
+              key={i}
+              className="absolute w-1 h-1 bg-blue-400/30 rounded-full"
+              style={{
+                left: `${seedX}%`,
+                top: `${seedY}%`,
+              }}
+              animate={{
+                y: [0, -30, 0],
+              }}
+              transition={{
+                duration: seedDuration,
                 repeat: Infinity,
                 ease: 'easeInOut',
-              }
-            }
-          />
-        ))}
+                delay: i * 0.1,
+              }}
+            />
+          )
+        })}
       </div>
 
       <div className="container mx-auto px-6 text-center relative z-10">
@@ -95,7 +104,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/1m1H3ecVT43GVN3NNqfrlKTW11ytp3FMc/view?usp=sharing"
+              href="https://drive.google.com/file/d/12pmm4-YjY1mSnKSwqYg8hs85RWh_32E6/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="glass px-8 py-4 rounded-full text-white font-medium text-lg glass-hover inline-block text-center"

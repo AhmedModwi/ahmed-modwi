@@ -55,21 +55,21 @@ const About = () => {
               <div className="glass p-8 rounded-3xl glass-hover">
                 <h3 className="text-2xl font-semibold mb-4 text-blue-400">The Journey Begins</h3>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  I&apos;m Ahmed Modwi Ibrahim, a passionate sales and customer experience professional 
-                  living in Dubai, UAE. With hands-on experience in fashion retail, digital marketing, 
-                  and client services, I specialize in building relationships and delivering solutions 
-                  that enhance satisfaction and trust.
+                  I&apos;m Ahmed Modwi Ibrahim, a dynamic and persuasive 28-year-old sales professional 
+                  living in Dubai, UAE. With practical experience across digital marketing, web services, 
+                  client-facing operations, and travel assistance, I specialize in listening to customers, 
+                  diagnosing needs, and guiding purchase or service decisions.
                 </p>
                 <p className="text-gray-300 leading-relaxed mb-6">
                   My unique background combines a Civil Engineering degree from University of Khartoum 
                   with diverse experience across customer engagement, field research, web development, 
-                  and brand promotion. I thrive in dynamic, fast-paced environments where I can blend 
-                  analytical thinking with human-centered solutions.
+                  and brand promotion. I have strong market awareness, a consultative selling approach, 
+                  and the ability to translate technical information into clear recommendations.
                 </p>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  Currently focused on mastering consultative sales and customer experience, 
-                  I&apos;m building expertise that will later inform intelligent systems for 
-                  data-driven customer relationships and sales optimization.
+                  Ready to apply sales and client service skills to showroom and property 
+                  consultancy roles in the UAE, I thrive in dynamic environments where I can 
+                  combine analytical thinking with human-centered solutions.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 mt-8">
